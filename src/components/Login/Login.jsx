@@ -1,6 +1,9 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import SocialLogin from '../social-login/SocialLogin';
+
+
 
 const Login = () => {
   return (
@@ -23,6 +26,9 @@ const Login = () => {
         Submit
       </Button>
     </Form>
+
+
+    <SocialLogin></SocialLogin>
     </div>
   );
 };
